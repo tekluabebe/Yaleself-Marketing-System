@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 242, 242);
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 95%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color:lightgray;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container input{
+    width: 20rem;
+    height: 2.5rem;
+    margin: 1rem auto;
+    border-radius: .7rem;
+    border-style: solid;
+    outline: none;
+    
+}
+.container select{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 2.5rem;
+    margin: 1rem auto;
+    border-radius: .7rem;
+    border-style: solid;
+    outline: none;
+    background-color: #000;
+    color: #FFF;
+    padding-left: 1rem;
+}
+.container select:hover{
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    background-color: #FFF;
+    color: #000;
+    transition: .5s ease-in-out;
+}
+.navigate{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+nav{
+    width: 80%;
+}
+.logo{
+    background-color: lightgray;
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+
+}
+.logo p{
+    margin-top: 0;
+}
+.logo img{
+    margin-top: 1rem;
+}
+form .order{
+    background-color: #000;
+    color: #FFF;
+    font-size: 1.2rem;
+}
+form .order:hover{
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    background-color: #FFF;
+    color: #000;
+    transition: .5s ease-in-out;
+}
+.nav a{
+    text-decoration: none;
+    color: #606;
+    font-weight: bold;
+}

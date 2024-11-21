@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    margin: 0 0;
+}
+nav {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 5%;
+    justify-content: space-around;
+    background-color: #FFF;   
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5) ;
+}
+.logo{
+    width: 20%;
+    display: flex   ;
+}
+.logo .ico{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-top: .5rem;
+    margin-right: 2rem;
+}
+.logo img{
+    margin-top: .5rem;
+    margin-left: .5rem;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    width: 40vw;
+    margin: auto;
+}
+.nav .options{
+    display: flex;
+    width: 20%;
+    /* background-color: brown; */
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+.nav .options:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #FFF;
+    transition: .5s ease-in-out;
+}
+.nav .options span{
+    padding-top: .5rem;
+}
+form{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: -5px;
+}
+form input{
+    margin-top: 1rem;
+    background-color:red;
+    
+}
+.nav-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+.sax{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 10%;
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-size: 1.2rem
+
+}
+table{
+    width: fit-content;
+}
+table td{
+    padding-right: 20px;
+}
